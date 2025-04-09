@@ -2,15 +2,13 @@
 #include  <vector> 
 using namespace std;
 
-void reverseVectors(vector<int>& nums) {
+void reverseVectors(vector<int>& nums) {  //or, vector<int> &nums
     int start=0, end= nums.size()-1;
     while(start < end){
         swap(nums[start], nums[end]);
         start++;
         end--;
-    }
-
-    
+    }    
 }
 
 int main(){
