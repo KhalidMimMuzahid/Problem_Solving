@@ -6,7 +6,7 @@ void printSubArray(vector<int>& nums) {  //or, vector<int> &nums
     int start=0, n= nums.size();
     for(int i=start; i<n;i++){
         for(int j= i; j<n;j++){
-            for(int k=i; k<j; k++){
+            for(int k=i; k<=j; k++){
                 cout<< nums[k];
             }
             cout << " ";
