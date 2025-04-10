@@ -2,19 +2,23 @@
 #include  <vector> 
 using namespace std;
 
-// if((nums[i]+ nums[j]) == target){
-//     pair={i, j};
-//     return pair;
-// }
 
-
-// Time Complexity: O(n)= n^2
+// Time Complexity: O(n)= n
 vector<int> pairSum(vector<int>& nums, int target) {  
-    int n= nums.size();
+    int start=0, end= nums.size();
     vector<int> pair;
-
-    for(int i=0; i<n;i++){
-        
+    
+    while(start<end){
+        if((nums[start]+ nums[end]) > target){
+            end--;
+        }
+        else if((nums[start]+ nums[end]) < target){
+            start++;
+        }
+        else {
+            pair= {start, end};
+            return pair;
+        }
     }
     return pair;
 }
