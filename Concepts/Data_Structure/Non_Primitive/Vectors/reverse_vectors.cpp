@@ -2,6 +2,8 @@
 #include  <vector> 
 using namespace std;
 
+
+// this is two pointer approach
 void reverseVectors(vector<int>& nums) {  //or, vector<int> &nums
     int start=0, end= nums.size()-1;
     while(start < end){
