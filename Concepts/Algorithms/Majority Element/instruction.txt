@@ -1,0 +1,22 @@
+#Majority Element
+
+
+
+The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+ 
+
+Example 1:
+Input: nums = [3,2,3]
+Output: 3
+explanation: 
+    in this array n=3, ⌊n / 2⌋=  floor(3/2) =1
+    that means there must have element appears more tha 1 time.
+    here 3 appears 2 times in this array
+
+Example 2:
+Input: nums = [2,2,1,1,1,2,2]
+Output: 2
+explanation: 
+    in this array n=7, ⌊n / 2⌋=  floor(7/2) =3
+    that means there must have element appears more tha 3 time.
+    here 32 appears 4 times in this array

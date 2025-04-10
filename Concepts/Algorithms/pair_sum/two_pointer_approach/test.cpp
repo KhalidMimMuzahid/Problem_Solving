@@ -5,17 +5,19 @@ using namespace std;
 
 // Time Complexity: O(n)= n
 vector<int> pairSum(vector<int>& nums, int target) {  
-    int start=0, end= nums.size();
+    int start=0, end= nums.size()-1;
     vector<int> pair;
-    
+    int pairSum = nums[start]+ nums[end];
     while(start<end){
-        if((nums[start]+ nums[end]) > target){
+        if(pairSum > target){
             end--;
         }
-        else if((nums[start]+ nums[end]) < target){
+        else if(pairSum < target){
             start++;
         }
         else {
+            // pair.push_back(start);
+            // pair.push_back(end);
             pair= {start, end};
             return pair;
         }
