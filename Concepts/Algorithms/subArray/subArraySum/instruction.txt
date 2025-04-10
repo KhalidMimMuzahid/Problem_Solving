@@ -1,0 +1,9 @@
+# Maximum Subarray Sum
+
+example:
+array =[3, -4, 5, 4, -1, 7, -8]
+
+answer =15; 
+explanation:
+array[2]  to array[5] is a subarray [ 5, 4, -1, 7]
+5 + 4 + (-1) + 7 = 15 (it is the maximum sum of subarray)
