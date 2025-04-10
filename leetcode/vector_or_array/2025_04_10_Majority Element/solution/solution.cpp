@@ -8,24 +8,6 @@ int majorityElement(vector<int>& nums) {
     int minMajorityElement= std::floor(n/2);
 
     std::sort(nums.begin(), nums.end());
-
-    // int answer=nums[0];
-    // int ansCount=1;
-
-    // for(int i=1; i<n; i++){
-    //     if(nums[i] == nums[i-1]){
-    //         ansCount++;
-    //     }
-    //     else{
-    //         answer=nums[i];
-    //         ansCount=1;
-    //     }
-
-    //     if(ansCount> n/2){
-    //         return answer;
-    //     }
-    // }
-
     int answer=nums[0];
     int ansCount=0;
 
