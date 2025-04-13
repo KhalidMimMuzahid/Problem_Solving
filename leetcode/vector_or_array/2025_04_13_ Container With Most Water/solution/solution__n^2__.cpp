@@ -2,7 +2,7 @@
 #include  <vector> 
 using namespace std;
 
-// Time Complexity: O(n)= (n)
+// Time Complexity: O(n)= (n^2)
 
 
 int maxArea(vector<int>& height) {
