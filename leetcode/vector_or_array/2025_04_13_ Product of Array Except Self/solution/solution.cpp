@@ -18,31 +18,37 @@ void printArray(vector<int> &arr, int n){
 vector<int> productExceptSelf(vector<int>& nums) {
     int n= nums.size();
     vector<int> answer(nums.size(), 1);
-    // left to right 
-    for(int i=0; i<n; i++ ){
-        if(i==0){
-            answer[i] = nums[i];
+
+    // for suffix product
+    // right to left 
+    for(int i=n-1; i>=0; i-- ){
+        if(i== n-1){
+            answer[i]= nums[i];
         }
         else{
-            answer[i]= nums[i]* answer[i-1];
+            answer[i]= nums[i]* answer[i+1];
         }
-       
+
     }
-    // printArray(answer, answer.size());
-    // right to left 
-    for(int i=n-2; i>=0; i-- ){
-        nums[i]= nums[i]* nums[i+1];
+
+    printArray(answer, answer.size());
+    // for suffix product
+    // left to right 
+    for(int i=1; i<n; i++ ){
+        nums[i]= nums[i]* nums[i-1];
     }
-    // printArray(nums, nums.size());
-    for(int i=n-1; i>=0; i--){
+    printArray(nums, nums.size());
+
+
+    for(int i=0; i<n; i++){
         if(i==0){
-            answer[i]= nums[i+1];
+            answer[i]= answer[i+1];
         }
         else if(i == n-1){
-            answer[i]= answer[i-1];
+            answer[i]= nums[i-1];
         }
         else{
-            answer[i]= nums[i+1] * answer[i-1];
+            answer[i]= answer[i+1] * nums[i-1];
         }
         
     }
