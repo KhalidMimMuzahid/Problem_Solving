@@ -3,7 +3,7 @@
 using namespace std;
 
 // Time Complexity: O(n)= logn
-int search2(vector<int>& nums, int target){
+int search(vector<int>& nums, int target){
     int start=0, end= nums.size()-1;
 
     while(start<=end){
@@ -50,7 +50,7 @@ int main(){
     vector<int> nums= {4,5,6,7,0,1,2}; // sorted array
   
     int target= 0; // targeted value
-    int targetindex=search2(nums,target);
+    int targetindex=search(nums,target);
     cout<< targetindex << endl;
 
     return 0;

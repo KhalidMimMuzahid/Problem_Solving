@@ -17,7 +17,7 @@ bool isValid(vector<int>& nums, int maxAllowedPages, int m){
         }
         if(pages+nums[i] > maxAllowedPages){
             // maxValue= max(maxValue, pages);
-            pages= nums[i];
+            pages= nums[i]; 
             studentCount++;
         }
         else{
