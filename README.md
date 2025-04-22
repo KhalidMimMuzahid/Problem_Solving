@@ -7,7 +7,7 @@ Welcome to **problem_solving**, my centralized collection of algorithm practices
 ## 📚 Table of Contents
 
 - [📖 Quick Links](#-quick-links)
-- [🧐 Overview](#-overview)
+<!-- - [🧐 Overview](#-overview) -->
 - [📂 Full Folder Structure](#-folder-structure)
 - [🙌 Contributing](#-contributing)
 - [📋 Problem Index Table](#-problem-index-table)
@@ -26,7 +26,7 @@ Welcome to **problem_solving**, my centralized collection of algorithm practices
 | Turing Solutions        | Solutions for Turing challenges            | [turing](/turing)               |
 | Practice Random        | Random problem solution            | [practice](/practice)               |
 
----
+<!-- ---
 
 ## 🧐 Overview
 
@@ -37,7 +37,7 @@ This repository is organized to help me:
 - **Track solutions** by platform (LeetCode, HackerRank, Codeforces) and by company
 - **Document thought‑processes** via folder naming and instruction files
 
-All solutions are written in C++ (`.cpp`) unless otherwise noted. You can navigate directly to any problem folder and compile/run the code there.
+All solutions are written in C++ (`.cpp`) unless otherwise noted. You can navigate directly to any problem folder and compile/run the code there. -->
 
 ---
 
@@ -55,30 +55,25 @@ problem_solving/
 │   │   │   ├── String/
 │   │   │   │   └── test.cpp
 │   │   ├── Non_Primitive/
-│   │   │   ├── String/
+│   │   │   ├── Array/
 │   │   │   │   └── test.cpp
 ├── Company/
 │   └── Company_01/
 │       └── problems/
 │           └── solutions
-│   └── Company_02/
-│       └── problems/
-│           └── solutions
 ├── leetcode/
-│   ├── exponential/
-│   ├── random/
-│   ├── vector_or_array/
-│   ├── 2025_04_09_Maximum_Subarray/
-│   │   ├── problem/
-│   │   │   └── problem.txt
-│   │   └── solution/
-│   │       └── solution.cpp
-│   └── 2025_04_09_Single_Number/
-│       └── solution.cpp
+│   ├── 2025/
+│   │   ├── January/
+│   │   │   ├── date_problem_name/
+│   │   │   │   ├── Problem/
+│   │   │   │   │   └──problem.txt
+│   │   │   │   ├── Solution/
+│   │   │   │   │   └──solution.cpp
 ├── practice/
-│   ├── problem/
-│   │   └── problem.txt
-│   │   └── solution
+│   ├── 2025/
+│   │   ├── January/
+│   │   │   ├── date_problem_name/
+│   │   │   │   └──files.cpp
 ├── codeforces/
 ├── hackerrank/
 ├── turing/
