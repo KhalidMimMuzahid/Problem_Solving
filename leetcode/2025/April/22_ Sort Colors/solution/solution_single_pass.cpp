@@ -9,30 +9,21 @@ void printVector(vector<int>& vec){
     cout << endl;
 }
 
-void sortColors(vector<int>& nums) { // O(2n) = // O(n)
-    int zeroCount=0, oneCount=0, twoCount=0;
+void sortColors(vector<int>& nums) { // T=O(2n) = // O(n) :: T= O(1)
+    int m=0, h=nums.size()-1, l=0;
 
-    for(int each: nums){ // O(n)
-        if(each == 0){
-            zeroCount++;
+    while(m<=h){
+        if(nums[m]== 0){
+            swap(nums[l], nums[m]);
+            l++;
+            m++;
         }
-        else if(each == 1){
-            oneCount++;
+        else  if(nums[m] == 1){
+            m++;
         }
         else{
-            twoCount++;
-        }
-    }
-
-    for(int i=1; i<= nums.size(); i++){ // O(n)
-        if(i<=zeroCount){
-            nums[i-1]= 0;
-        }
-        else if(i <= (zeroCount+oneCount)){
-            nums[i-1]= 1;
-        }
-        else{
-            nums[i-1]=2;
+            swap(nums[m], nums[h]);
+            h--;
         }
     }
 }
