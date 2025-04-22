@@ -88,13 +88,9 @@ problem_solving/
 
 A quick overview of solved problems across platforms. Click the link to view the solution.
 
-| No. |    Date    | Problem Name            | Level  | Platform   |                              Problem                                 |                               Solution                               |
-|-----|------------|-------------------------|--------|------------|----------------------------------------------------------------------|----------------------------------------------------------------------|
-| 1   | 2025-04-09 | Two Sum                 | Easy   | LeetCode   | [View](leetcode/2025_01_15_Two_Sum/solution.cpp)                     | [View](leetcode/2025_01_15_Two_Sum/solution.cpp)                     |                 
-| 2   | 2025-04-09 | Reverse Linked List     | Medium | LeetCode   | [View](leetcode/2025_02_20_Reverse_Linked_List/solution.cpp)         | [View](leetcode/2025_01_15_Two_Sum/solution.cpp)                     |    
-| 3   | 2025-04-09 | Balanced Brackets       | Easy   | HackerRank | [View](hackerrank/stack/balanced_brackets/solution.cpp)              | [View](leetcode/2025_01_15_Two_Sum/solution.cpp)                     |    
-| 4   | 2025-04-09 | Maximum Subarray        | Medium | LeetCode   | [View](/leetcode/2025_04_09_Maximum_Subarray/solution/solution.cpp)  | [View](leetcode/2025_01_15_Two_Sum/solution.cpp)                     |    
-| 5   | 2025-04-09 | Binary Search           | Easy   | Codeforces | [View](codeforces/2025_03_30_Binary_Search/solution.cpp)             | [View](leetcode/2025_01_15_Two_Sum/solution.cpp)                     |    
+| No. |    Date    | Problem Name         | Level  | Platform   |                              Problem                        |                               Solution                               |
+|-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 1   | 2025-04-09 | Two Sum              | Easy   | LeetCode   | [View](https://leetcode.com/problems/maximum-subarray)     | [View](/leetcode/vector_or_array/2025_04_09_%20Maximum%20Subarray/)  |     
 
 <!-- > **Tip:** When adding a new problem, update this table with the next sequence number, problem details, and the correct relative path link. -->
 
