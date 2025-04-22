@@ -7,11 +7,10 @@ Welcome to **problem_solving**, my centralized collection of algorithm practices
 ## 📚 Table of Contents
 
 - [📖 Quick Links](#-quick-links)
+- [🧐 Overview](#-overview)
+- [📂 Full Folder Structure](#-folder-structure)
 - [📋 Problem Index Table](#-problem-index-table)
-- [📂 Full Folder Structure](#-full-folder-structure)
-- [📚 Other Sections](#-other-sections)
 - [🙌 Contributing](#-contributing)
-- [📄 License](#-license)
 
 ---
 
@@ -111,18 +110,4 @@ A quick overview of solved problems across platforms. Click the link to view the
 3. Add your `problem.txt` and `solution.cpp`.<br>
 4. Update the **Problem Index Table** above.<br>
 5. Submit a Pull Request.
-
-
-
-
-
-
-
-xxxxxxxxxx
-# 🧩 Problem Solving Repository
-
-Welcome to **problem_solving**, a centralized hub for practicing algorithms, exploring core concepts, and tracking solutions across platforms like LeetCode, HackerRank, Codeforces, and company-specific interview sets.
-
----
-
 
