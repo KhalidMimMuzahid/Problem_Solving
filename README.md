@@ -18,10 +18,13 @@ Welcome to **problem_solving**, my centralized collection of algorithm practices
 
 | Section                     | Description                                    | Link                                     |
 |-----------------------------|------------------------------------------------|------------------------------------------|
-| Company‑wise Problems       | Interview questions by company                 | [Company/](Company/)                     |
-| Concepts & Algorithms       | Algorithm patterns & data structures           | [Concepts/](Concepts/)                   |
-| HackerRank Solutions        | Solutions for HackerRank challenges            | [hackerrank/](hackerrank/)               |
-| LeetCode Solutions          | All solved LeetCode problems                   | [leetcode/](leetcode/)                   |
+| Concepts & DSA       | Algorithm patterns & data structures           | [Concepts](/Concepts/)                   |
+| LeetCode Solutions          | All solved LeetCode problems                   | [leetcode](/leetcode)                   |
+| Company‑wise Problems       | Interview questions by company                 | [Company](/Company)                     |
+| HackerRank Solutions        | Solutions for HackerRank challenges            | [hackerrank](/hackerrank)               |
+| Codeforces Solutions        | Solutions for Codeforces challenges            | [codeforces](/codeforces/)               |
+| Turing Solutions        | Solutions for Turing challenges            | [turing](/turing)               |
+| Practice Random        | Random problem solution            | [practice](/practice)               |
 
 ---
 
@@ -83,6 +86,7 @@ problem_solving/
 └── README.md
 ```
 
+---
 
 ## 🙌 Contributing
 
@@ -92,7 +96,7 @@ problem_solving/
 4. Update the **Problem Index Table** above.<br>
 5. Submit a Pull Request.
 
-
+---
 
 ## 📋 Problem Index Table
 
