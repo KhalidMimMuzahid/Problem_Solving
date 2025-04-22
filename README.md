@@ -9,8 +9,8 @@ Welcome to **problem_solving**, my centralized collection of algorithm practices
 - [📖 Quick Links](#-quick-links)
 - [🧐 Overview](#-overview)
 - [📂 Full Folder Structure](#-folder-structure)
-- [📋 Problem Index Table](#-problem-index-table)
 - [🙌 Contributing](#-contributing)
+- [📋 Problem Index Table](#-problem-index-table)
 
 ---
 
@@ -84,6 +84,16 @@ problem_solving/
 ```
 
 
+## 🙌 Contributing
+
+1. **Fork** this repo.<br>
+2. Create a branch: `<platform>/<YYYY_MM_DD>_<ProblemName>`.<br>
+3. Add your `problem.txt` and `solution.cpp`.<br>
+4. Update the **Problem Index Table** above.<br>
+5. Submit a Pull Request.
+
+
+
 ## 📋 Problem Index Table
 
 A quick overview of solved problems across platforms. Click the link to view the solution.
@@ -106,13 +116,6 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 
 
----
 
-## 🙌 Contributing
 
-1. **Fork** this repo.<br>
-2. Create a branch: `<platform>/<YYYY_MM_DD>_<ProblemName>`.<br>
-3. Add your `problem.txt` and `solution.cpp`.<br>
-4. Update the **Problem Index Table** above.<br>
-5. Submit a Pull Request.
 
