@@ -7,7 +7,7 @@ Welcome to **problem_solving**, my centralized collection of algorithm practices
 ## 📖 Table of Contents
 
 - [Overview](#overview)
-- [Folder Structure](#Folder-Structure)
+- [Folder Structure](#FolderStructure)
 - [Company‑wise Problems](#company-wise-problems)
 - [Concepts & Algorithms](#concepts--algorithms)
 - [HackerRank Solutions](#hackerrank-solutions)
