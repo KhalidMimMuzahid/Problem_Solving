@@ -91,7 +91,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 | No. | Problem Name            | Level   | Platform   | Link                                                                 |
 |-----|-------------------------|---------|------------|----------------------------------------------------------------------|
 | 1   | Two Sum                 | Easy    | LeetCode   | [View](leetcode/2025_01_15_Two_Sum/solution.cpp)                      |
-| 2   | Reverse Linked List     | Medium  | LeetCode   | [View](leetcode/2025_02_20_Reverse_Linked_List/solution.cpp)         |
+| 2   | Reverse Linked List xxxxxxxxxxxxxxxxxxxx    | Medium  | LeetCode   | [View](leetcode/2025_02_20_Reverse_Linked_List/solution.cpp)         |
 | 3   | Balanced Brackets       | Easy    | HackerRank | [View](hackerrank/stack/balanced_brackets/solution.cpp)              |
 | 4   | Maximum Subarray        | Medium  | LeetCode   | [View](leetcode/2025_04_09_Maximum_Subarray/solution/solution.cpp)   |
 | 5   | Binary Search           | Easy    | Codeforces | [View](codeforces/2025_03_30_Binary_Search/solution.cpp)             |
