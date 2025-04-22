@@ -90,6 +90,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  | Platform   |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 4   | 2025-04-10 | Best Time to Buy and Sell Stock | Easy   | LeetCode   | [View](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)     | [View](/leetcode/2025/April/12_%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/solution/solution.cpp)  |
 | 3   | 2025-04-10 | Majority Element | Easy   | LeetCode   | [View](https://leetcode.com/problems/majority-element)     | [View](/leetcode/2025/April/10_%20Majority%20Element/solution/solution.cpp)  |
 | 2   | 2025-04-09 | Single Number | Easy   | LeetCode   | [View](https://leetcode.com/problems/single-number)     | [View](/leetcode/2025/April/09_%20Single%20Number/solution/solution.cpp)  |
 | 1   | 2025-04-09 | Maximum Subarray | Medium   | LeetCode   | [View](https://leetcode.com/problems/maximum-subarray)     | [View](/leetcode/2025/April/09_%20Maximum%20Subarray/solution/solution.cpp)  |     
