@@ -7,7 +7,7 @@ Welcome to **problem_solving**, my centralized collection of algorithm practices
 ## 📖 Table of Contents
 
 - [Overview](#overview)
-- [Folder Structure](#folder-structure)
+- [Folder Structure](#Folder-Structure)
 - [Company‑wise Problems](#company-wise-problems)
 - [Concepts & Algorithms](#concepts--algorithms)
 - [HackerRank Solutions](#hackerrank-solutions)
@@ -35,7 +35,7 @@ All solutions are written in C++ (`.cpp`) unless otherwise noted. You can naviga
 
 ---
 
-## 📂 Folder Structure
+## Folder-Structure
 
 ```text
 problem_solving/
@@ -79,3 +79,5 @@ problem_solving/
 ├── virtual_judge/
 └── README.md
 ```
+
+
