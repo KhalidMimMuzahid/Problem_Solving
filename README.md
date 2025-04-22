@@ -4,21 +4,25 @@ Welcome to **problem_solving**, my centralized collection of algorithm practices
 
 ---
 
-## 📖 Table of Contents
+## 📚 Table of Contents
 
-- [Overview](#overview)
-- [Folder Structure](#FolderStructure)
-- [Company‑wise Problems](#company-wise-problems)
-- [Concepts & Algorithms](#concepts--algorithms)
-- [HackerRank Solutions](#hackerrank-solutions)
-- [LeetCode Solutions](#leetcode-solutions)
-  - [Exponential & Power](#exponential--power)
-  - [Random](#random)
-  - [Vector or Array](#vector-or-array)
-  - [2025_04_09 – Maximum Subarray](#2025_04_09--maximum-subarray)
-  - [2025_04_09 – Single Number](#2025_04_09--single-number)
-- [Contributing](#contributing)
-- [License](#license)
+- [📖 Quick Links](#-quick-links)
+- [📋 Problem Index Table](#-problem-index-table)
+- [📂 Full Folder Structure](#-full-folder-structure)
+- [📚 Other Sections](#-other-sections)
+- [🙌 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
+## 📖 Quick Links
+
+| Section                     | Description                                    | Link                                     |
+|-----------------------------|------------------------------------------------|------------------------------------------|
+| Company‑wise Problems       | Interview questions by company                 | [Company/](Company/)                     |
+| Concepts & Algorithms       | Algorithm patterns & data structures           | [Concepts/](Concepts/)                   |
+| HackerRank Solutions        | Solutions for HackerRank challenges            | [hackerrank/](hackerrank/)               |
+| LeetCode Solutions          | All solved LeetCode problems                   | [leetcode/](leetcode/)                   |
 
 ---
 
@@ -79,5 +83,46 @@ problem_solving/
 ├── virtual_judge/
 └── README.md
 ```
+
+
+## 📋 Problem Index Table
+
+A quick overview of solved problems across platforms. Click the link to view the solution.
+
+| No. | Problem Name            | Level   | Platform   | Link                                                                 |
+|-----|-------------------------|---------|------------|----------------------------------------------------------------------|
+| 1   | Two Sum                 | Easy    | LeetCode   | [View](leetcode/2025_01_15_Two_Sum/solution.cpp)                      |
+| 2   | Reverse Linked List     | Medium  | LeetCode   | [View](leetcode/2025_02_20_Reverse_Linked_List/solution.cpp)         |
+| 3   | Balanced Brackets       | Easy    | HackerRank | [View](hackerrank/stack/balanced_brackets/solution.cpp)              |
+| 4   | Maximum Subarray        | Medium  | LeetCode   | [View](leetcode/2025_04_09_Maximum_Subarray/solution/solution.cpp)   |
+| 5   | Binary Search           | Easy    | Codeforces | [View](codeforces/2025_03_30_Binary_Search/solution.cpp)             |
+
+<!-- > **Tip:** When adding a new problem, update this table with the next sequence number, problem details, and the correct relative path link. -->
+
+
+
+
+---
+
+## 🙌 Contributing
+
+1. **Fork** this repo.<br>
+2. Create a branch: `<platform>/<YYYY_MM_DD>_<ProblemName>`.<br>
+3. Add your `problem.txt` and `solution.cpp`.<br>
+4. Update the **Problem Index Table** above.<br>
+5. Submit a Pull Request.
+
+
+
+
+
+
+
+xxxxxxxxxx
+# 🧩 Problem Solving Repository
+
+Welcome to **problem_solving**, a centralized hub for practicing algorithms, exploring core concepts, and tracking solutions across platforms like LeetCode, HackerRank, Codeforces, and company-specific interview sets.
+
+---
 
 
