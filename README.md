@@ -90,7 +90,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  | Platform   |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
-| 1   | 2025-04-09 | Two Sum              | Easy   | LeetCode   | [View](https://leetcode.com/problems/maximum-subarray)     | [View](/leetcode/vector_or_array/2025_04_09_%20Maximum%20Subarray/)  |     
+| 1   | 2025-04-09 | Maximum Subarray | Medium   | LeetCode   | [View](https://leetcode.com/problems/maximum-subarray)     | [View](/leetcode/2025/April/09_%20Maximum%20Subarray/solution/solution.cpp)  |     
 
 <!-- > **Tip:** When adding a new problem, update this table with the next sequence number, problem details, and the correct relative path link. -->
 
