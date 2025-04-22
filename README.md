@@ -90,7 +90,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  | Platform   |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
-| 2   | 2025-04-09 | Single Number | Medium   | LeetCode   | [View](https://leetcode.com/problems/single-number)     | [View](/leetcode/2025/April/09_%20Single%20Number/solution/solution.cpp)  |
+| 2   | 2025-04-09 | Single Number | Easy   | LeetCode   | [View](https://leetcode.com/problems/single-number)     | [View](/leetcode/2025/April/09_%20Single%20Number/solution/solution.cpp)  |
 | 1   | 2025-04-09 | Maximum Subarray | Medium   | LeetCode   | [View](https://leetcode.com/problems/maximum-subarray)     | [View](/leetcode/2025/April/09_%20Maximum%20Subarray/solution/solution.cpp)  |     
 
 <!-- > **Tip:** When adding a new problem, update this table with the next sequence number, problem details, and the correct relative path link. -->
