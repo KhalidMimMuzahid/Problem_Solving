@@ -35,7 +35,7 @@ All solutions are written in C++ (`.cpp`) unless otherwise noted. You can naviga
 
 ---
 
-## Folder-Structure
+## 📂 Folder Structure
 
 ```text
 problem_solving/
