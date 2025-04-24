@@ -1,0 +1,7 @@
+STL (Standard Template Library)
+
+STL Comes in 4 part
+1) Container
+2) Iterators
+3) Algorithms
+4) Functors
