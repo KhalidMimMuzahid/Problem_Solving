@@ -2,16 +2,6 @@
 #include <stack>
 using namespace std;
 
-// void printList(list<int>& li){
-
-//     cout<< " [";
-//     for(int val: li){
-//         cout << " " << val ;
-//     }
-//     cout<< " ]";
-//     cout << endl;
-// }
-
 
 int main(){
     stack<int> s; // LIFO
