@@ -11,24 +11,20 @@ void printVector(vector<int>& vec){
 
 // TC => O(m+n), SC=> O(1)
 void mergeSortedArray(vector<int>& nums1, int m, vector<int>& nums2, int n) { 
-    int i= m-1, j=n-1, count=0;
+    int i= m-1, j=n-1, index=m+n-1;
     while(i>=0 && j>=0){
         if(nums1[i] >= nums2[j]){
-            nums1[(m+n-1)-count] = nums1[i];
-            i--;
+            nums1[index--] = nums1[i--];
         }
         else{
-            nums1[(m+n-1)-count] = nums2[j];
-            j--;
+            nums1[index--] = nums2[j--];
         }
-        count++ ;
     }
+
 
     // if any remaining nums2 element has not placed
     while(j>=0){
-        nums1[(m+n-1)-count] = nums2[j];
-        count++;
-        j--;
+        nums1[index--] = nums2[j--];
     }
     // nums1 element has already been placed cause nums1 has already all element place from zero index
 }
