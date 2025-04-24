@@ -49,6 +49,11 @@ int main(){
     cout<< "size: " << li.size();
     printList(li);
     cout<< "-------------------------------------"<< endl;
+
+
+    //cout<< "value of index 2: " << de[2]<< endl; // it doesn't support it, cause deque isnot  a dynamic array
+
+
     return 0;
 }
 
