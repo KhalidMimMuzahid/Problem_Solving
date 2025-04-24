@@ -13,7 +13,8 @@ void printVector(vector<int>& vec){
     cout << endl;
 }
 
-
+// pop_back can reduce the size but not the capacity
+// push_back can increase bot of the size and capacity
 int main(){
     vector<int> vec; // size=0
     cout<< "-------------------------------------"<< endl;
