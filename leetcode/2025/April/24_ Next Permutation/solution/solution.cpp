@@ -1,0 +1,82 @@
+#include <iostream>
+#include  <vector> 
+using namespace std;
+
+void printVector(vector<int>& vec){
+    for(int i=0; i<vec.size(); i++){
+        cout << vec[i] << " ";
+    }
+    cout << endl;
+}
+
+// TC => O(n), SC=> O(1)
+void nextPermutation(vector<int>& nums) { 
+    int n=nums.size(), breakPoint;
+    bool descendingOrder= true;
+
+    // find is the already descending or not. if not then from right to left which index break the descending order from last of the array
+    for(int i = n-1; i>=1; i--){
+        if(nums[i] > nums[i-1]){
+            breakPoint= i-1;
+            descendingOrder= false;
+            break;
+            
+        }
+    }
+
+    if(!descendingOrder){
+
+        // we are try to place the value of nums[breakPoint] to the  index (breakpoint+1 to n-1) right side, so that  right side maintain the descending order. Thats why finding the targetIndex to place nums[breakPoint] 
+
+        
+        // int targetIndex=breakPoint+1;
+        // for(int i = breakPoint+1; i<n; i++){
+        //     if(nums[i] > nums[breakPoint] && nums[i] <=nums[targetIndex]){
+        //         targetIndex=i;
+        //     }
+        // }
+
+        // OR,
+
+        int targetIndex=n-1;
+        for(int i = n-1; i>breakPoint; i--){
+            if(nums[i] > nums[breakPoint]){
+                targetIndex=i;
+                break;
+            }
+        }
+
+        // we are placing the value of nums[breakPoint]
+        swap(nums[targetIndex], nums[breakPoint]);
+
+        // now right side is descending order. we just need to make it ascending ()
+        // thats why we are just reversing the array
+        int start=breakPoint+1, end=n-1 ;
+        while(start<=end){
+            swap(nums[start++], nums[end--]);
+        }
+
+
+    }
+    else{
+        // if descending order then just reverse the array 
+        int start=0, end=n-1;
+        while(start<=end){
+            swap(nums[start++], nums[end--]);
+        }
+    }
+
+
+
+}
+
+
+int main(){
+    vector<int> nums = {2,3,1,3,3};
+
+    nextPermutation(nums);
+    printVector(nums);
+
+    return 0;
+}
+  
