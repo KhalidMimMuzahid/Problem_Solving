@@ -4,7 +4,10 @@
     "vector": "cpp",
     "ostream": "cpp",
     "limits": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "queue": "cpp",
+    "stack": "cpp",
+    "list": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled"
 }
