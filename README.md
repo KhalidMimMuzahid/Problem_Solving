@@ -95,7 +95,7 @@ problem_solving/
 
 ## 📋 Problem Index Table
 
-A quick overview of solved problems across platforms. Click the link to view the problem & solution.
+A quick overview of solved problems across platforms. Click the link to view the problem & solution. 
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
