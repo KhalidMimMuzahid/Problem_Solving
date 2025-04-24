@@ -11,6 +11,15 @@ void printVector(vector<int>& vec){
 
 // TC => O(n), SC=> O(1)
 void nextPermutation(vector<int>& nums) { 
+
+    // // this is STL functions in C++: we cant not use this on coding interview though it can be submitted in leetcode successfully
+    // next_permutation(nums.begin(), nums.end());
+    // return;
+
+    // Or,
+
+
+
     int n=nums.size();
     int pivot=-1; // or breakpoint( a value or index that helps divide or guide a process in an algorithm.)
 
@@ -58,7 +67,10 @@ void nextPermutation(vector<int>& nums) {
         // step 3
         // now right side is descending order. we just need to make it ascending ()
         // thats why we are just reversing the array
+        
         int start=pivot+1, end=n-1 ;
+        // reverse(nums.begin()+ start, nums.end() );
+        // or,
         while(start<=end){
             swap(nums[start++], nums[end--]);
         }
@@ -68,6 +80,8 @@ void nextPermutation(vector<int>& nums) {
     else{
         // if descending order then just reverse the array 
         int start=0, end=n-1;
+        // reverse(nums.begin(), nums.end() );
+        // or, 
         while(start<=end){
             swap(nums[start++], nums[end--]);
         }
