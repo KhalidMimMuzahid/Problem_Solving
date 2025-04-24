@@ -5,7 +5,7 @@ using namespace std;
 
 
 int main(){
-    queue<int> q; // LIFO
+    queue<int> q; // FIFO
     q.push(1);
     q.push(2);
     q.push(3);
