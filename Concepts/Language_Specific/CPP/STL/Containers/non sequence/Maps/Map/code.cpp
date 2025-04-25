@@ -9,7 +9,7 @@ using namespace std;
 int main(){
     map<string, int>  products;
 
-    products["tv"]=200;
+    products["tv"]=200; // T=O(logn)
     products["ac"]=100; 
     products["fridge"]=150;
 
@@ -21,7 +21,7 @@ int main(){
         cout<<p.first<< ": " << p.second  <<  endl;    
     }
     cout<< endl;
-    products.insert({"camera", 35});
+    products.insert({"camera", 35}); // T=O(logn)
     products.emplace("mobile", 300);
 
     for(auto p: products){
@@ -30,7 +30,7 @@ int main(){
 
     cout<< "key count: "<< products.count("mobile")<< endl;
 
-    products.erase("tv"); // tv has been removed
+    products.erase("tv"); // tv has been removed  // T=O(logn)
 
     for(auto p: products){
         cout<<p.first<< ": " << p.second  <<  endl;    

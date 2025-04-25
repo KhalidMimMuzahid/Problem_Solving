@@ -6,13 +6,13 @@ using namespace std;
 
 int main(){
     queue<int> q; // FIFO
-    q.push(1);
+    q.push(1);// push() -> T=O(1)
     q.push(2);
     q.push(3);
     q.push(4);
     q.emplace(5);
     cout<< "front: "<< q.front()<< endl;
-    q.pop();
+    q.pop();// pop() -> T=O(1)
     cout<< "front: "<< q.front()<< endl;
     cout<< "size: " << q.size()<<endl;
 
