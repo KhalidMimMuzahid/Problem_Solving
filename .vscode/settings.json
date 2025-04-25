@@ -18,7 +18,10 @@
     "string_view": "cpp",
     "unordered_map": "cpp",
     "map": "cpp",
-    "set": "cpp"
+    "set": "cpp",
+    "__bit_reference": "cpp",
+    "__tree": "cpp",
+    "unordered_set": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled"
 }
