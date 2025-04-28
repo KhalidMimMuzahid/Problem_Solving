@@ -1,33 +1,28 @@
 #include <iostream>
-
+#include <string> 
 using namespace std;
 
-int main(){
+int main() {
+    // string is dynamic => it can grow and shrink in size in runtime
+    // string is a class in C++ STL (Standard Template Library)
 
-    // 1. character array initialization C-style string initialization
-    char str[]= {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '\0'}; //character array initialization
-    
+    string s1= "hello world"; // string initialization
+    string s2(10, 'a'); // string initialization with 10 'a' characters
 
-
-    // 2. string literal initialization
-    char str_[] = "Hello World"; // The compiler automatically adds the null terminator \0 at the end.
-
- 
-    // internally, these characters are getting converted to a single string
-    cout<< str << endl; // constant pointer,  Output: Hello World
-
-    int nums[]={1, 2, 3, 4, 5}; // C-style array initialization
-    cout<< nums<< endl; // Output: Address of the first element
+    cout << "s1: " << s1 << endl; // Output: hello world
+    cout << "s2: " << s2 << endl; // Output: aaaaaaaaaa
+    cout << "s2 length: " << s2.length() << endl; // Output: 10
+    cout << "s2 size: " << s2.size() << endl; // Output: 10 
 
 
-    char str2[]={'a', 'b', 'c', 'd', 'e', 'f'}; 
-    cout << str2 << endl; // Output: abcdef , after this string it has not ended, thats why when you run multiple time this code you will different character has added after the string "abcdef"
-    cout<< strlen(str2)<< endl; // Output: 6, when you run multiple timeoutput will be different like 6, 7 or 8. 
-    char str3[]={'a', 'b', 'c', 'd', 'e', 'f', '\0'}; 
-    cout << str3 << endl; // Output: abcdef
-    char str4[]={'a', 'b', 'c', 'd', 'e', 'f', '\0', 'g', 'h', 'i', 'j'}; 
-    cout << str4 << endl; // Output: abcdef , cause the array has end when it see "\0"
-    cout<< strlen(str4)<< endl; // Output: 6, cause the array has end when it see "\0"
+    string s3= "Khalid Mim Muzahid"; // string initialization with a string literal
+    cout << "s3: " << s3 << endl; // Output: Khalid Mim Muzahid
+    s3="Sejuti Akter Swapna"; // string assignment
+    cout << "s3: " << s3 << endl; // Output: Sejuti Akter Swapna
 
+
+    char s4[]= "Khalid Mim Muzahid"; // character array initialization
+    cout << "s4: " << s4 << endl; // Output: Khalid Mim Muzahid
+    // s4= "Sejuti Akter Swapna"; // it will give error, cause in char array we can't assign a string literal to a character array after initialization
     return 0;
 }
