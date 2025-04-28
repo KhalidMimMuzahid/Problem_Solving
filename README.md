@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 14   | 2025-04-28 | Reverse String | Easy | LeetCode | [View](https://leetcode.com/problems/reverse-string)     | [View](/leetcode/2025/April/28_%20Reverse%20String/solution/solution.cpp)  |
 | 13   | 2025-04-24 | Next Permutation | Medium   | LeetCode: #lexicographically | [View](https://leetcode.com/problems/next-permutation)     | [View](/leetcode/2025/April/24_%20Next%20Permutation/solution/solution.cpp)  |
 | 12   | 2025-04-23 | Merge Sorted Array | Easy   | LeetCode | [View](https://leetcode.com/problems/merge-sorted-array)     | [View](/leetcode/2025/April/23_%20Merge%20Sorted%20Array/solution/solution.cpp)  |
 | 11   | 2025-04-22 | Sort Colors | Medium   | LeetCode: #dutch_national_flag #three_pointer  | [View](https://leetcode.com/problems/sort-colors)     | [View](/leetcode/2025/April/22_%20Sort%20Colors/solution)  |
