@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 17   | 2025-04-29 | Permutation in String | Medium | LeetCode: #string #frequencies | [View](https://leetcode.com/problems/permutation-in-string)     | [View](/leetcode/2025/April/29_%20Permutation%20in%20String/)  |
 | 16   | 2025-04-29 | Remove All Occurrences of a Substring | Medium | LeetCode: #string | [View](https://leetcode.com/problems/remove-all-occurrences-of-a-substring)     | [View](/leetcode/2025/April/29_%20Remove%20All%20Occurrences%20of%20a%20Substring/solution/solution.cpp)  |
 | 15   | 2025-04-29 | Valid Palindrome | Easy | LeetCode: #string | [View](https://leetcode.com/problems/valid-palindrome)     | [View](/leetcode/2025/April/29_%20Valid%20Palindrome/solution/solution.cpp)  |
 | 14   | 2025-04-28 | Reverse String | Easy | LeetCode: #string | [View](https://leetcode.com/problems/reverse-string)     | [View](/leetcode/2025/April/28_%20Reverse%20String/solution/solution.cpp)  |
