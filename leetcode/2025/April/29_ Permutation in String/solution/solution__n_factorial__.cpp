@@ -2,6 +2,7 @@
 using namespace std;
 #include <cctype> 
 
+//TC= O(n!)
 bool checkInclusion(string s1, string s2) {
     string s= s1;
     do{
