@@ -99,7 +99,8 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
-| 18   | 2025-04-30 | Reverse Words in a String | Medium | LeetCode: #string | [View](https://leetcode.com/problems/reverse-words-in-a-string)     | [View](/leetcode/2025/April/30_%20Reverse%20Words%20in%20a%20String//solution/solution.cpp)  |
+| 19   | 2025-05-01 | String Compression | Medium | LeetCode: #string #two_pointer #c_array | [View](https://leetcode.com/problems/string-compression)     | [View](/leetcode/2025/May/01_%20String%20Compression/solution/solution.cpp)  |
+| 18   | 2025-04-30 | Reverse Words in a String | Medium | LeetCode: #string #two_pointer | [View](https://leetcode.com/problems/reverse-words-in-a-string)     | [View](/leetcode/2025/April/30_%20Reverse%20Words%20in%20a%20String//solution/solution.cpp)  |
 | 17   | 2025-04-29 | Permutation in String | Medium | LeetCode: #string #frequencies | [View](https://leetcode.com/problems/permutation-in-string)     | [View](/leetcode/2025/April/29_%20Permutation%20in%20String/solution/solutioon__n^2__.cpp)  |
 | 16   | 2025-04-29 | Remove All Occurrences of a Substring | Medium | LeetCode: #string | [View](https://leetcode.com/problems/remove-all-occurrences-of-a-substring)     | [View](/leetcode/2025/April/29_%20Remove%20All%20Occurrences%20of%20a%20Substring/solution/solution.cpp)  |
 | 15   | 2025-04-29 | Valid Palindrome | Easy | LeetCode: #string | [View](https://leetcode.com/problems/valid-palindrome)     | [View](/leetcode/2025/April/29_%20Valid%20Palindrome/solution/solution.cpp)  |
