@@ -37,6 +37,8 @@ int calculateGCD(int a,int b){
     return calculateGCD(b, a%b );
 }
 
+
+// TC= O( log(min(a,b)) )
 int calculateLCM(int a,int b){
     int gcd= calculateGCD(a,b);
     int lcm = (a*b)/gcd; 
