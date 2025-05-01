@@ -2,51 +2,30 @@
 using namespace std;
 
 
-string reverseWords(string s) {
+// TC= O(n) 
+// here have 2 loop, one inside other, but actually they are increasing one value i++, thats why they both are loopover the string only once.
+string reverseWords(string s) { 
+    string ans = "";
     reverse(s.begin(), s.end());
-    int i=0;
-    while(s[i] !='\0'){
-        // cout<<s<<endl;
-        if(s[i] == ' '){
+    for(int i = 0; i < s.length(); i++) {
+        string word = "";
+        while(i < s.length() && s[i] != ' ') {
+            word += s[i];
             i++;
-            continue;
         }
-        int j;
-        for(j=i; s[j]!= '\0' && s[j]!=' '; j++ ){
-            // cout<<"s[j]=["<<s[j]<<"]" << endl;
+        reverse(word.begin(), word.end());
+        if(word.length() > 0) {
+            ans += (" " + word);
         }
-        // cout<<"i="<< i<<" j="<<j<<endl;
-        reverse(s.begin()+i, s.begin()+j);
-        i=j;
     }
-
-    int k=0;
-    bool duplicateSpace= false;
-    while(s[k]!='\0'){
-        // cout<< "k="<<k<<"::: s[k]= ["<<s[k]<<"]"<<"::: s= ["<< s<< "]"<<endl;
-        if(s[k] == ' '){
-            if(duplicateSpace){
-                s.erase(k,1);
-            }
-            else{
-                duplicateSpace= true;
-                k++;
-            }
-            continue;
-        }
-        duplicateSpace= false;
-        k++;
-    }
-    if(s[0]==' ') s.erase(0,1);
-    if(s[s.size()-1] ==' ') s.erase(s.size()-1,1);
-    return s;
+    return ans.substr(1);
 }
 
 int main(){
     string s = "     the     sky is blue     ";
     // "  the sky  ";
     string reversedString = reverseWords(s);
-    // cout<< "reversedString: ["<< reversedString<< "]" << endl; 
+    cout<< "reversedString: ["<< reversedString<< "]" << endl; 
 
     return 0;
 }
