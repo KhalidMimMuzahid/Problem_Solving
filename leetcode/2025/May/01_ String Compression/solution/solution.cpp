@@ -25,7 +25,9 @@ int compress(vector<char>& chars) {
             }
         }
     }
-    return index;
+
+    chars.resize(index);
+    return chars.size(); //OR,  return index // cause there are same after the resizing 
 }
 
 int main(){
