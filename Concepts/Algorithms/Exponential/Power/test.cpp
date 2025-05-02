@@ -30,8 +30,8 @@ double myPow(float x, int n) {
 }
 
 int main(){
-    float x;
-    int n;
+    float x=5;
+    int n=3;
 
     int ans= myPow(x,n);
     cout<<ans<< endl;
