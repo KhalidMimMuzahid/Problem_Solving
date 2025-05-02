@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 22   | 2025-05-02 | Palindrome Number | Easy | LeetCode: #math #digit_in_number #reverse_string  | [View](https://leetcode.com/problems/palindrome-number)     | [View](/leetcode/2025/May/02_%20Palindrome%20Number/solution/solution.cpp)  |
 | 21   | 2025-05-01 | Reverse Integer | Medium | LeetCode: #math #digit_in_number #reverse_string  | [View](https://leetcode.com/problems/reverse-integer)     | [View](/leetcode/2025/May/01_%20Reverse%20Integer/solution/solution.cpp)  |
 | 20   | 2025-05-01 | Count Primes | Medium | LeetCode: #math #array #eliminate #enumeration #sieve_of_eratosthenes  | [View](https://leetcode.com/problems/count-primes)     | [View](/leetcode/2025/May/01_%20Count%20Primes/solution/solution.cpp)  |
 | 19   | 2025-05-01 | String Compression | Medium | LeetCode: #string #two_pointer #c_array | [View](https://leetcode.com/problems/string-compression)     | [View](/leetcode/2025/May/01_%20String%20Compression/solution/solution.cpp)  |
