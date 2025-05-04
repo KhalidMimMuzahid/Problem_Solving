@@ -4,7 +4,7 @@ using namespace std;
 
 // TC= O( logm + logn )= O(log(m*n)) // m= row, n=col
 //
-bool searchMatrix(vector<vector<int>>& matrix, int target) {
+pair<int, int> searchMatrix(vector<vector<int>>& matrix, int target) {
     int row = matrix.size();
     // here we are setting start and end value to track the row
     int start = 0, end= row-1;
@@ -36,20 +36,20 @@ bool searchMatrix(vector<vector<int>>& matrix, int target) {
                     start= mid_col+1;
                 }
                 else{
-                    return true; // target value is matrix[mid_row][mid_col] here
+                    return {mid_row, mid_col}; // target value is matrix[mid_row][mid_col] here
                 }
             }
-            return false;  
+            return {-1,-1};
         }
     }
-    return false;       
+    return {-1,-1};       
 }
 
 int main(){
     vector<vector<int>> matrix = {{1,3,5,7},{10,11,16,20},{23,30,34,60}};
-    int target = 3;
-    bool has_found= searchMatrix(matrix, target);
-    cout<< target<< " has"<< (has_found? " found": " not found")<< " in this matrix"<< endl;
+    int target = 11;
+    pair<int, int> cell= searchMatrix(matrix, target);
+    cout<< target<< " has"<< (cell.first != -1? (" found on position matrix[" +to_string(cell.first)+ "]["+ to_string(cell.second)+ "]") : " not found")<< " in this matrix"<< endl;
 
 
     return 0;
