@@ -1,3 +1,4 @@
+// TC = O(n)
 var twoSum = function (nums, target) {
   var dict = {};
   let ans;

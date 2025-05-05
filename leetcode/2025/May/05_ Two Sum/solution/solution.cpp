@@ -4,18 +4,19 @@
 using namespace std;
 
 
+//TC = O(n)
 vector<int> twoSum(vector<int>& nums, int target) {
-    map<int,int> m;
+    unordered_map<int,int> m;
     vector<int> ans;
-    for(int i=0; i<nums.size();i++){
+    for(int i=0; i<nums.size();i++){ //TC = O(n)
         int value= nums[i];
         int different= target-value;
-        if(m[different] ){
-            ans= {m[different]-1, i};
+        if(m.find(different) != m.end() ){
+            ans= {m[different], i};
             break;
         }
         else{
-            m[value]=i+1;
+            m[value]=i;
         }
     }
     return ans;
