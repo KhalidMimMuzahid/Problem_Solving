@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 25   | 2025-05-05 | Spiral Matrix | Medium | LeetCode: #2D_array #simulation  | [View](https://leetcode.com/problems/spiral-matrix)     | [View](/leetcode/2025/May/05_%20Spiral%20Matrix/solution/)  |
 | 24   | 2025-05-04 | Search a 2D Matrix II | Medium | LeetCode: #2D_array #binary_search  | [View](https://leetcode.com/problems/search-a-2d-matrix-ii)     | [View](/leetcode/2025/May/04_%20Search%20a%202D%20Matrix%20II/solution/)  |
 | 23   | 2025-05-04 | Search a 2D Matrix | Medium | LeetCode: #2D_array #binary_search  | [View](https://leetcode.com/problems/search-a-2d-matrix)     | [View](/leetcode/2025/May/04_%20Search%20a%202D%20Matrix/solution/solution.cpp)  |
 | 22   | 2025-05-02 | Palindrome Number | Easy | LeetCode: #math #digit_in_number #reverse_string  | [View](https://leetcode.com/problems/palindrome-number)     | [View](/leetcode/2025/May/02_%20Palindrome%20Number/solution/solution.cpp)  |
