@@ -11,7 +11,7 @@ int main(){
     products.insert({"fridge",150}); // pair will be randomly placed not be sorted here
     products.insert({"tv",250});  // T=O(1)
     products.insert({"ac",150});
-    // products.insert({"ac",151});  // we can not duplicate key
+    // products.insert({"ac",151});  // we can not add duplicate key
 
     for(auto p: products){
         cout<<p.first<< ": " << p.second  <<  endl;    

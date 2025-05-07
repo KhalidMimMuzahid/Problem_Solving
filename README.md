@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 29   | 2025-05-07 | 3Sum | Medium | LeetCode: #array #two_pointer #sorting #hash #unordered_map | [View](https://leetcode.com/problems/3sum)     | [View](/leetcode/2025/May/07_%203Sum/solution/)  |
 | 28   | 2025-05-06 | Find the Duplicate Number | Medium | LeetCode: #array #slow_fast | [View](https://leetcode.com/problems/find-the-duplicate-number)     | [View](/leetcode/2025/May/06_%20Find%20the%20Duplicate%20Number/solution/)  |
 | 27   | 2025-05-05 | Find Missing and Repeated Values | Easy | LeetCode: #2D_array #map #set #hash_table #math | [View](https://leetcode.com/problems/find-missing-and-repeated-values)     | [View](/leetcode/2025/May/05_%20Find%20Missing%20and%20Repeated%20Values/solution/)  |
 | 26   | 2025-05-05 | Two Sum | Easy | LeetCode: #array #map #hash_table  | [View](https://leetcode.com/problems/two-sum)     | [View](/leetcode/2025/May/05_%20Two%20Sum/solution/)  |
