@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 31   | 2025-05-07 | Subarray Sum Equals K | Medium | LeetCode: #array #hash_table #prefix_sum | [View](https://leetcode.com/problems/subarray-sum-equals-k)     | [View](/leetcode/2025/May/07_%20Subarray%20Sum%20Equals%20K/solution/solution.cpp)  |
 | 30   | 2025-05-07 | 4Sum | Medium | LeetCode: #array #two_pointer #sorting | [View](https://leetcode.com/problems/4sum)     | [View](/leetcode/2025/May/07_%204Sum/solution/solution.cpp)  |
 | 29   | 2025-05-07 | 3Sum | Medium | LeetCode: #array #two_pointer #sorting #hash #unordered_map | [View](https://leetcode.com/problems/3sum)     | [View](/leetcode/2025/May/07_%203Sum/solution/)  |
 | 28   | 2025-05-06 | Find the Duplicate Number | Medium | LeetCode: #array #slow_fast | [View](https://leetcode.com/problems/find-the-duplicate-number)     | [View](/leetcode/2025/May/06_%20Find%20the%20Duplicate%20Number/solution/)  |
