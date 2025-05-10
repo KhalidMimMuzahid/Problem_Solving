@@ -31,6 +31,7 @@ int subarraySum(vector<int>& nums, int k) {
         if(m.find(val) != m.end()){
             count+= m[val];
         }
+        
         if(m.find(prefix_nums[j]) == m.end()){
             m[prefix_nums[j]] =0;
         }

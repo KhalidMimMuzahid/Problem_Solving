@@ -24,7 +24,8 @@
     "unordered_set": "cpp",
     "tuple": "cpp",
     "__locale": "cpp",
-    "ios": "cpp"
+    "ios": "cpp",
+    "locale": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled"
 }
