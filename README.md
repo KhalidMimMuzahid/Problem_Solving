@@ -99,6 +99,8 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 33   | 2025-05-11 | Binary Search | Easy | LeetCode: #array #recursion | [View](https://leetcode.com/problems/binary-search)     | [View](/leetcode/2025/May/11_%20Binary%20Search/solution/solution.cpp)  |
+| 32   | 2025-05-11 | Fibonacci Number | Easy | LeetCode: #recursion | [View](https://leetcode.com/problems/fibonacci-number)     | [View](/leetcode/2025/May/11_%20Fibonacci%20Number/solution/solution.cpp)  |
 | 31   | 2025-05-07 | Subarray Sum Equals K | Medium | LeetCode: #array #hash_table #prefix_sum | [View](https://leetcode.com/problems/subarray-sum-equals-k)     | [View](/leetcode/2025/May/07_%20Subarray%20Sum%20Equals%20K/solution/solution.cpp)  |
 | 30   | 2025-05-07 | 4Sum | Medium | LeetCode: #array #two_pointer #sorting | [View](https://leetcode.com/problems/4sum)     | [View](/leetcode/2025/May/07_%204Sum/solution/solution.cpp)  |
 | 29   | 2025-05-07 | 3Sum | Medium | LeetCode: #array #two_pointer #sorting #hash #unordered_map | [View](https://leetcode.com/problems/3sum)     | [View](/leetcode/2025/May/07_%203Sum/solution/)  |
