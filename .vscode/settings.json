@@ -25,7 +25,8 @@
     "tuple": "cpp",
     "__locale": "cpp",
     "ios": "cpp",
-    "locale": "cpp"
+    "locale": "cpp",
+    "iosfwd": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled"
 }
