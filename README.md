@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 36   | 2025-05-13 | Permutations | Medium | LeetCode: #array #recursion #backtracking | [View](https://leetcode.com/problems/permutations)     | [View](/leetcode/2025/May/13_%20Permutations/solution/solution.cpp)  |
 | 35   | 2025-05-12 | Subsets II | Medium | LeetCode: #array #recursion #backtracking | [View](https://leetcode.com/problems/subsets-ii)     | [View](/leetcode/2025/May/12_%20Subsets%20II/solution/solution2.cpp)  |
 | 34   | 2025-05-12 | Subsets | Medium | LeetCode: #array #recursion #backtracking | [View](https://leetcode.com/problems/subsets)     | [View](/leetcode/2025/May/12_%20Subsets/solution/solution.cpp)  |
 | 33   | 2025-05-11 | Binary Search | Easy | LeetCode: #array #recursion | [View](https://leetcode.com/problems/binary-search)     | [View](/leetcode/2025/May/11_%20Binary%20Search/solution/solution.cpp)  |
