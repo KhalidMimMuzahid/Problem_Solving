@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 37   | 2025-05-15 | N-Queens | Hard | LeetCode: #array #recursion #backtracking | [View](https://leetcode.com/problems/n-queens)     | [View](/leetcode/2025/May/15_%20N-Queens/solution/solution.cpp)  |
 | 36   | 2025-05-13 | Permutations | Medium | LeetCode: #array #recursion #backtracking | [View](https://leetcode.com/problems/permutations)     | [View](/leetcode/2025/May/13_%20Permutations/solution/solution.cpp)  |
 | 35   | 2025-05-12 | Subsets II | Medium | LeetCode: #array #recursion #backtracking | [View](https://leetcode.com/problems/subsets-ii)     | [View](/leetcode/2025/May/12_%20Subsets%20II/solution/solution2.cpp)  |
 | 34   | 2025-05-12 | Subsets | Medium | LeetCode: #array #recursion #backtracking | [View](https://leetcode.com/problems/subsets)     | [View](/leetcode/2025/May/12_%20Subsets/solution/solution.cpp)  |
