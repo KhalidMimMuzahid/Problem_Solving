@@ -2,28 +2,31 @@
 #include <vector>
 using namespace std;
 
+// TC=O(n)
 bool is_safe(vector<string>& board, int row, int col, int n){
     // // horizontal
+    // // TC=O(n)
     // for(int j= 0; j<n; j++){
     //     if(board[row][j] == 'Q'){
     //         return false;
     //     }
     // }
     
+    // TC=O(n)
     // vertical
     for(int i= 0; i<n; i++){
         if(board[i][col] == 'Q'){
             return false;
         }
     }
-
+    // TC=O(n)
     // left diagonal
     for(int i=row, j= col; i>=0 && j>=0; i--, j--){
         if(board[i][j] == 'Q'){
             return false;
         }
     }
-
+    // TC=O(n)
     // right diagonal
     for(int i=row, j= col; i>=0 && j<n; i--, j++){
         if(board[i][j] == 'Q'){
@@ -36,6 +39,7 @@ bool is_safe(vector<string>& board, int row, int col, int n){
 
 
 
+// TC=O(n!)
 void n_queens(vector<string>& board, int row, int n, vector<vector<string>>& ans){
     if(row == n){
         ans.push_back(board);
