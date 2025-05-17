@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 41   | 2025-05-17 | Combination Sum | Medium | Custom: #array #recursion #backtracking | [View](https://leetcode.com/problems/combination-sum)     | [View](/leetcode/2025/May/17_%20Combination%20Sum/solution/solution.cpp)  |
 | 40   | 2025-05-17 | Rat in Maze | Hard | Custom: #2d_array #recursion #backtracking | [View](/practice/2025/May/17_%20Rat%20in%20a%20Maze/problem/README.md)     | [View](/practice/2025/May/17_%20Rat%20in%20a%20Maze/solution/solution.cpp)  |
 | 39   | 2025-05-16 | Sudoku Solver | Hard | LeetCode: #2d_array #recursion #backtracking | [View](https://leetcode.com/problems/sudoku-solver)     | [View](/leetcode/2025/May/16_Sudoku%20Solver/solution/solution.cpp)  |
 | 38   | 2025-05-16 | Check Knight Tour Configuration | Medium | LeetCode: #2d_array #recursion | [View](https://leetcode.com/problems/check-knight-tour-configuration)     | [View](/leetcode/2025/May/16_%20Check%20Knight%20Tour%20Configuration/solution/solution.cpp)  |
