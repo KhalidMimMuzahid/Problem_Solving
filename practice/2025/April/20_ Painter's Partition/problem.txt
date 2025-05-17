@@ -1,3 +1,5 @@
+#https://www.hackerearth.com/problem/algorithm/painters-partition/
+
 #Painter's Partition Problem
 
 Given are N boards of length of each given in the form of array, and M painters, such that each painter takes 1 unit of time to paint 1 unit of the board.
