@@ -99,7 +99,8 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
-| 38   | 2025-05-15 | Check Knight Tour Configuration | Medium | LeetCode: #2d_array #recursion | [View](https://leetcode.com/problems/check-knight-tour-configuration)     | [View](/leetcode/2025/May/16_%20Check%20Knight%20Tour%20Configuration/solution/solution.cpp)  |
+| 39   | 2025-05-16 | Sudoku Solver | Hard | LeetCode: #2d_array #recursion #backtracking | [View](https://leetcode.com/problems/sudoku-solver)     | [View](/leetcode/2025/May/16_Sudoku%20Solver/solution/solution.cpp)  |
+| 38   | 2025-05-16 | Check Knight Tour Configuration | Medium | LeetCode: #2d_array #recursion | [View](https://leetcode.com/problems/check-knight-tour-configuration)     | [View](/leetcode/2025/May/16_%20Check%20Knight%20Tour%20Configuration/solution/solution.cpp)  |
 | 37   | 2025-05-15 | N-Queens | Hard | LeetCode: #array #recursion #backtracking | [View](https://leetcode.com/problems/n-queens)     | [View](/leetcode/2025/May/15_%20N-Queens/solution/solution.cpp)  |
 | 36   | 2025-05-13 | Permutations | Medium | LeetCode: #array #recursion #backtracking | [View](https://leetcode.com/problems/permutations)     | [View](/leetcode/2025/May/13_%20Permutations/solution/solution.cpp)  |
 | 35   | 2025-05-12 | Subsets II | Medium | LeetCode: #array #recursion #backtracking | [View](https://leetcode.com/problems/subsets-ii)     | [View](/leetcode/2025/May/12_%20Subsets%20II/solution/solution2.cpp)  |
