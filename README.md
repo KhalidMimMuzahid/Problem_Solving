@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 45   | 2025-05-18 | Palindrome Partitioning | Medium | Custom: #string #recursion #backtracking | [View](https://leetcode.com/problems/palindrome-partitioning)     | [View](/leetcode/2025/May/18_%20Palindrome%20Partitioning/solution/solution.cpp)  |
 | 44   | 2025-05-17 | Combination Sum | Medium | Custom: #array #recursion #backtracking | [View](https://leetcode.com/problems/combination-sum)     | [View](/leetcode/2025/May/17_%20Combination%20Sum/solution/solution.cpp)  |
 | 43   | 2025-05-17 | Rat in Maze | Hard | Custom: #2d_array #recursion #backtracking | [View](/practice/2025/May/17_%20Rat%20in%20a%20Maze/problem/README.md)     | [View](/practice/2025/May/17_%20Rat%20in%20a%20Maze/solution/solution.cpp)  |
 | 42   | 2025-05-16 | Sudoku Solver | Hard | LeetCode: #2d_array #recursion #backtracking | [View](https://leetcode.com/problems/sudoku-solver)     | [View](/leetcode/2025/May/16_Sudoku%20Solver/solution/solution.cpp)  |
