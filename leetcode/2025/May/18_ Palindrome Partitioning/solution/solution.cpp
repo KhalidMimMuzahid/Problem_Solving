@@ -3,14 +3,9 @@
 using namespace std;
 
 bool is_palindrome(string s){
-    int start=0, end= s.size()-1;
-    while(start<end){
-        if(s[start] != s[end]){
-            return false;
-        }
-        start++; end--;
-    }
-    return true;
+    string s2 =s;
+    reverse(s2.begin(), s2.end());
+    return s == s2;
 }
 
 void helper(string s, vector<vector<string>>& ans, vector<string>& partition){
@@ -28,6 +23,8 @@ void helper(string s, vector<vector<string>>& ans, vector<string>& partition){
     }
 }
 
+
+// TC= O(N * 2^N)
 vector<vector<string>> partition(string s) {
     vector<vector<string>> ans;
     vector<string> partition;
@@ -36,7 +33,7 @@ vector<vector<string>> partition(string s) {
 }
 
 int main(){
-    string s = "aab";
+    string s = "aaaa"; // "aab";
     vector<vector<string>> ans= partition(s);
     for(vector<string> partition: ans){
         cout<<"[";

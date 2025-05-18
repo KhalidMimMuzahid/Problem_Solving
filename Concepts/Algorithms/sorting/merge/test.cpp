@@ -2,11 +2,12 @@
 #include  <vector> 
 using namespace std;
 
+// TC = O(n)
 void merge(vector<int> &arr, int start, int mid, int end){
     int i=start, j=mid+1;
     vector <int> tempArr;
 
-    while(i<j && i<=mid && j<=end){
+    while(i<=mid && j<=end){
         if(arr[i]< arr[j]){
             tempArr.push_back(arr[i]);
             i++;
@@ -32,19 +33,16 @@ void merge(vector<int> &arr, int start, int mid, int end){
 
 }
 
-// Time Complexity: O(n)= nlogn
+// Time Complexity= O(nlogn)
+// Space Complexity = O(n) // n is because of the temp array in merge function
 void mergeSort(vector<int> &arr, int start, int end){
     if(start<end){
         int mid = start+ (end-start)/2;
         mergeSort(arr, start, mid); // for left hub
         mergeSort(arr, mid+1, end); // for right hub
-
-        merge(arr, start, mid, end);
+ 
+        merge(arr, start, mid, end);  // TC = O(n)
     }
-
-    
-
-
 }
 
 void printVector(vector<int> arr, int n){
