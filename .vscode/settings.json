@@ -52,7 +52,8 @@
     "memory": "cpp",
     "optional": "cpp",
     "ratio": "cpp",
-    "variant": "cpp"
+    "variant": "cpp",
+    "__node_handle": "cpp"
   },
   "C_Cpp.errorSquiggles": "enabled"
 }
