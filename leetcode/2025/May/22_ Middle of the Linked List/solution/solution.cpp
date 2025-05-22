@@ -34,25 +34,38 @@ public:
         }
         tail= newListNode;
     }
-    ListNode* reverseList(ListNode* head) {
-        ListNode* prev= NULL;
-        ListNode* cur= head;
-        while(cur!=NULL){
-            ListNode* next= cur->next;
-            cur->next= prev;
-            prev= cur;
-            cur= next;
+
+    ListNode* middleNode2(ListNode* head) {
+        int nodeSize=0;
+        ListNode* temp= head;
+        while(temp!=NULL){
+            nodeSize++;
+            temp=temp->next;
         }
-        this->head= prev;
+        int idx=0, middleNodeIndex=nodeSize/2;
+        while(idx != middleNodeIndex){
+            head= head->next;
+            idx++;
+        }
         return head;
+    }
+
+    ListNode* middleNode(ListNode* head) {
+        ListNode* slow= head;
+        ListNode* fast= head;
+        while(fast!=NULL && fast->next != NULL){
+            slow= slow->next;
+            fast= fast->next->next;
+        }
+        return slow;
     }
     
     // TC = O(n)
     // SC = O(1)
-    ListNode* reverse() {
-        return reverseList(this->head);
+    ListNode* middle() {
+        // return middleNode2(head);
+        return middleNode(head);
     }
-
     // TC= O(n) // n=size
     void printLL(){
         ListNode* ListNode = head;
@@ -71,9 +84,11 @@ int main(){
     l1.push_back(3);
     l1.push_back(4);
     l1.push_back(5);
+    l1.push_back(6);
     l1.printLL();
-    l1.reverse();
     l1.printLL();
+    ListNode* middleNode= l1.middle();
+    cout<< "middle: "<< middleNode->val<<endl;
     
     return 0;
 }
