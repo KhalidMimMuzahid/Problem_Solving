@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 50   | 2025-05-22 | Linked List Cycle II | Medium | LeetCode: #linked_list #two_pointer  | [View](https://leetcode.com/problems/linked-list-cycle-ii)     | [View](/leetcode/2025/May/22_%20Linked%20List%20Cycle%20II/solution/solution.cpp)  |
 | 49   | 2025-05-22 | Linked List Cycle | Easy | LeetCode: #linked_list #two_pointer  | [View](https://leetcode.com/problems/linked-list-cycle)     | [View](/leetcode/2025/May/22_%20Linked%20List%20Cycle/solution/solution.cpp)  |
 | 48   | 2025-05-22 | Middle of the Linked List | Easy | LeetCode: #linked_list #two_pointer  | [View](https://leetcode.com/problems/middle-of-the-linked-list)     | [View](/leetcode/2025/May/22_%20Middle%20of%20the%20Linked%20List/solution/solution.cpp)  |
 | 47   | 2025-05-22 | Reverse Linked List | Easy | LeetCode: #linked_list #three_pointer #recursion  | [View](https://leetcode.com/problems/reverse-linked-list)     | [View](/leetcode/2025/May/22_%20Reverse%20Linked%20List/solution/solution.cpp)  |
