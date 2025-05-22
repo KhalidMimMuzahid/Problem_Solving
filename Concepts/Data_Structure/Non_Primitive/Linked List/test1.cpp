@@ -121,6 +121,19 @@ public:
         return -1;
     }
 
+    //reverse
+    // TC= O(n) // n=size
+    void reverse() {
+        Node* prev= NULL;
+        Node* cur= head;
+        while(cur!=NULL){
+            Node* next= cur->next;
+            cur->next= prev;
+            prev= cur;
+            cur= next;
+        }
+        head= prev;
+    }
     // size methods
     // TC= O(n) // n=size
     int size(){
@@ -160,6 +173,8 @@ int main(){
     l1.insert(0,0);
     l1.insert(9,9);
     // l1.insert(10,122);
+    l1.printLL();
+    l1.reverse();
     l1.printLL();
     cout<<"has found: "<< l1.find(8)<< endl;
 
