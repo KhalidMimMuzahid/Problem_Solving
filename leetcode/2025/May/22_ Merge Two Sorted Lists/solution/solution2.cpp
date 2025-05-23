@@ -47,7 +47,7 @@ public:
 };
 
 // TC = O(m+n)
-
+// SC = O(n) // n is height of the recursion tree (call stack)
 ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
     if(list1==NULL && list2 ==NULL) return NULL;
     else if(list1==NULL) return list2;
