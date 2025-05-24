@@ -6,18 +6,17 @@ class Node{
 public:
     int data;
     Node* next;
-    Node* prev;
     Node(int val){
         data=val;
-        next=prev= NULL;
+        next= NULL;
     }
 };
 
-class DoublyList{
+class CircularList{
     Node* head;
     Node* tail;
 public:
-    DoublyList(){
+    CircularList(){
         head= tail= NULL;
     }
     // push front method
@@ -26,21 +25,18 @@ public:
         // Node newNode(val); // static
         Node* newNode= new Node(val); // dynamic
         if(head == NULL){
-            // (*newNode).next= NULL; 
-            newNode->next= NULL;
             tail= newNode;
         }
         else{
             newNode->next= head;
-            head->prev= newNode;
         }
-        newNode->prev= NULL;
         head= newNode;
+        tail->next= head;
     }
 
     // pop_front
     // TC= O(1)
-    void pop_front(){
+    void pop_front(){ 
         Node* temp= head;
         if(head == NULL)return;
         else if(head == tail){
@@ -48,7 +44,7 @@ public:
         }
         else{
             head= head->next;
-            head->prev= NULL;
+            tail->next= head;
         }
         delete temp;
     }
@@ -57,16 +53,16 @@ public:
     // TC= O(1)
     void push_back(int val){
         Node* newNode= new Node(val);
-        newNode->next= NULL;
+        
         if(head == NULL){
-            newNode->prev= NULL;
             head= newNode;
+            // newNode->next= head;
         }
         else{
             tail->next= newNode;
-            newNode->prev= tail;
         }
         tail= newNode;
+        tail->next=head;
     }
 
     // pop_back
@@ -78,8 +74,12 @@ public:
             head= tail= NULL;
         }
         else{
-            tail= tail->prev;
-            tail->next= NULL;
+            Node* node = head;
+            while(node->next != tail){
+                node=node->next;
+            };
+            tail= node;
+            tail->next= head;
         }
         delete temp;
     }
@@ -94,28 +94,27 @@ public:
         }
         Node* temp= head;
         int idx=0; // 
-        while(temp!=NULL){
+        do{
             if(idx == pos-1){
                 Node* newNode= new Node(val);
                 newNode->next= temp->next;
-                newNode->next->prev= newNode;
                 temp->next= newNode;
-                newNode->prev= temp;
                 break;
             }
             temp= temp->next;
             idx++;
-        }
+        }while(temp->next!=head);
         // cout<<"idx: "<<idx<<" pos: "<<pos<<endl;
-        if(temp == tail && idx ==pos) push_back(val);
+        if(temp == tail && idx ==pos-1) push_back(val);
     }
 
     //search
     // TC= O(n) // n=size
     int find(int val){
-        int idx=0;
-        Node* node= head;
-        while(node!=NULL){
+        if(head != NULL && head->data == val) return 0;
+        int idx=1;
+        Node* node= head->next;
+        while(node!=head){
             if(node->data == val){
                 return idx;
             }
@@ -129,9 +128,11 @@ public:
     // size methods
     // TC= O(n) // n=size
     int size(){
-        int count=0;
         Node* node = head;
-        while(node!= NULL){
+        if(head==NULL)return 0;
+        int count=1;
+        node=node->next;
+        while(node!= head){
             count++;
             node=node->next;
         };
@@ -141,49 +142,37 @@ public:
     // TC= O(n) // n=size
     void printLL(){
         Node* node = head;
-        while(node!= NULL){
+        cout<<"["<< node->data<< "]"<<"->";
+        node= node->next;
+        while(node!= head){
             cout<<"["<< node->data<< "]"<<"->";
             node=node->next;
         };
-        cout<<"NULL"<<endl;
-    }
-    void printLLReverse(){
-        Node* node = tail;
-        while(node!= NULL){
-            cout<<"["<< node->data<< "]"<<"->";
-            node=node->prev;
-        };
-        cout<<"NULL"<<endl;
+        cout<<"["<< node->data<< "]"<<endl; // this is duplicated value (head); cause head has already printed in first
     }
 };
 
 int main(){
-    DoublyList l1;
+    CircularList l1;
     l1.push_front(4);
     l1.push_front(3);
     l1.push_front(2);
     l1.push_front(1);
+    l1.printLL();
+    l1.pop_front();
+    l1.printLL();
 
     l1.push_back(6);
     l1.push_back(7);
-    l1.push_back(8);
+    l1.push_back(9);
     l1.printLL();
-    l1.printLLReverse();
-
-    l1.insert(5,4);
-    l1.printLL();
-    l1.printLLReverse();
-
-    l1.pop_front();
-    l1.printLL();
-    l1.printLLReverse();
-
     l1.pop_back();
     l1.printLL();
-    l1.printLLReverse(); 
 
-    cout<< "Size: "<<l1.size()<<endl;
-    cout<< "has Found: "<< l1.find(5);
-    cout<<endl;
+    l1.insert(5,5);
+    l1.printLL();
+
+    cout<<"size: "<< l1.size()<<endl;
+    cout<< "has Found: "<< l1.find(5)<<endl;
     return 0;
 }
