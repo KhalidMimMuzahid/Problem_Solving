@@ -13,9 +13,9 @@ public:
 
 class Solution {
 public:
+
     ListNode* helper(ListNode* first, ListNode* second){
         if(first==NULL || second==NULL) return first;
-
         ListNode* nextFirstPair= second->next;
         second->next= first;
         if(nextFirstPair != NULL){
@@ -26,9 +26,10 @@ public:
         }
         return second;
     }
-
     ListNode* swapPairs(ListNode* head) {
         if(head== NULL)return NULL;
         return helper(head, head->next);
     }
+
+
 };
