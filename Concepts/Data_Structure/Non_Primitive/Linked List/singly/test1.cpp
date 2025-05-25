@@ -129,7 +129,7 @@ public:
         while(cur!=NULL){
             Node* next= cur->next;
             cur->next= prev;
-            prev= cur;
+            prev= cur;                         
             cur= next;
         }
         head= prev;
@@ -164,6 +164,8 @@ int main(){
     l1.push_front(2);
     l1.push_front(1);
     cout<< "size: "<< l1.size()<<endl;
+    l1.printLL();
+    l1.reverse();
     l1.printLL();
 
     l1.push_back(5);

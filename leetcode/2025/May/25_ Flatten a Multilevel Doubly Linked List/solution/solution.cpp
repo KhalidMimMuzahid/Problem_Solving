@@ -21,11 +21,11 @@ public:
             current->next= current->child;
             current->next->prev= current;
             lastNode=helper(current->next);
+            current->child= NULL; // remove child link
             if(nextNode != NULL){
                 lastNode->next= nextNode;
                 nextNode->prev= lastNode;
             }
-            current->child= NULL; // remove child link
         }
         if(current != NULL && nextNode != NULL){
             return helper(nextNode);

@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 54   | 2025-05-25 | Reverse Nodes in k-Group | Hard | LeetCode: #linked_list #recursion   | [View](https://leetcode.com/problems/reverse-nodes-in-k-group)     | [View](/leetcode/2025/May/25_%20Reverse%20Nodes%20in%20k-Group/solution/solution.cpp)  |
 | 53   | 2025-05-25 | Flatten a Multilevel Doubly Linked List | Medium | LeetCode: #linked_list #doubly_linked_list #recursion #backtracking #dfs   | [View](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)     | [View](/leetcode/2025/May/25_%20Flatten%20a%20Multilevel%20Doubly%20Linked%20List/solution)  |
 | 52   | 2025-05-23 | Copy List with Random Pointer | Medium | LeetCode: #linked_list #hash_table  | [View](https://leetcode.com/problems/copy-list-with-random-pointer)     | [View](/leetcode/2025/May/23_Copy%20List%20with%20Random%20Pointer/solution/)  |
 | 51   | 2025-05-22 | Merge Two Sorted Lists | Easy | LeetCode: #linked_list #recursion  | [View](https://leetcode.com/problems/merge-two-sorted-lists)     | [View](/leetcode/2025/May/22_%20Merge%20Two%20Sorted%20Lists/solution/)  |
