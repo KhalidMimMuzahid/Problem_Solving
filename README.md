@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 56   | 2025-05-26 | Valid Parentheses | Stack | LeetCode: #stack #string   | [View](https://leetcode.com/problems/valid-parentheses)     | [View](/leetcode/2025/May/26_%20Valid%20Parentheses/solution/solution.cpp)  |
 | 55   | 2025-05-25 | Swap Nodes in Pairs | Medium | LeetCode: #linked_list #recursion   | [View](https://leetcode.com/problems/swap-nodes-in-pairs)     | [View](/leetcode/2025/May/25_%20Swap%20Nodes%20in%20Pairs/solution/solution.cpp)  |
 | 54   | 2025-05-25 | Reverse Nodes in k-Group | Hard | LeetCode: #linked_list #recursion   | [View](https://leetcode.com/problems/reverse-nodes-in-k-group)     | [View](/leetcode/2025/May/25_%20Reverse%20Nodes%20in%20k-Group/solution/solution.cpp)  |
 | 53   | 2025-05-25 | Flatten a Multilevel Doubly Linked List | Medium | LeetCode: #linked_list #doubly_linked_list #recursion #backtracking #dfs   | [View](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)     | [View](/leetcode/2025/May/25_%20Flatten%20a%20Multilevel%20Doubly%20Linked%20List/solution)  |
