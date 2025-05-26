@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 59   | 2025-05-26 | Min Stack | Medium | LeetCode: #stack #min_stack #array #class   | [View](https://leetcode.com/problems/min-stack)     | [View](/leetcode/2025/May/26_%20Min%20Stack/solution/)  |
 | 58   | 2025-05-26 | Next Greater Element I | Easy | LeetCode: #stack #array #hash_table #monotonic_stack   | [View](https://leetcode.com/problems/next-greater-element-i)     | [View](/leetcode/2025/May/26_%20Next%20Greater%20Element%20I/solution/solution.cpp)  |
 | 57   | 2025-05-26 | Stock Span | Medium | Hackerearth: #stack #array   | [View](https://www.hackerearth.com/problem/algorithm/stock-span-4-a0d4600b-b5c6efe0)     | [View](/leetcode/2025/May/26_%20Stock%20Span/solution/solution.cpp)  |
 | 56   | 2025-05-26 | Valid Parentheses | Easy | LeetCode: #stack #string   | [View](https://leetcode.com/problems/valid-parentheses)     | [View](/leetcode/2025/May/26_%20Valid%20Parentheses/solution/solution.cpp)  |
