@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 58   | 2025-05-26 | Next Greater Element I | Easy | LeetCode: #stack #array #hash_table #monotonic_stack   | [View](https://leetcode.com/problems/next-greater-element-i)     | [View](/leetcode/2025/May/26_%20Next%20Greater%20Element%20I/solution/solution.cpp)  |
 | 57   | 2025-05-26 | Stock Span | Medium | Hackerearth: #stack #array   | [View](https://www.hackerearth.com/problem/algorithm/stock-span-4-a0d4600b-b5c6efe0)     | [View](/leetcode/2025/May/26_%20Stock%20Span/solution/solution.cpp)  |
 | 56   | 2025-05-26 | Valid Parentheses | Easy | LeetCode: #stack #string   | [View](https://leetcode.com/problems/valid-parentheses)     | [View](/leetcode/2025/May/26_%20Valid%20Parentheses/solution/solution.cpp)  |
 | 55   | 2025-05-25 | Swap Nodes in Pairs | Medium | LeetCode: #linked_list #recursion   | [View](https://leetcode.com/problems/swap-nodes-in-pairs)     | [View](/leetcode/2025/May/25_%20Swap%20Nodes%20in%20Pairs/solution/solution.cpp)  |
