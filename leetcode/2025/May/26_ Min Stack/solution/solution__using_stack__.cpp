@@ -1,13 +1,12 @@
 #include<iostream>
-#include<vector>
+// #include<vector>
 #include <algorithm> 
-// #include<stack>
+#include<stack>
 using namespace std;
-
 
 // SC = O(2n); for each item, we are saving two value, 1.val 2.min
 class MinStack {
-    vector<pair<int, int>> v; // pair<val, min_val>
+    stack<pair<int, int>> s; // pair<val, min_val>
 public:
     MinStack() {
         
@@ -15,23 +14,23 @@ public:
     //TC= O(1)
     void push(int val){
         int min = INT_MAX;
-        if(v.size()!=0){
-            min =v[v.size()-1].second;
+        if(!s.empty()){
+            min =s.top().second;
         }
         min= std::min(min,val);
-        v.push_back({val,min});
+        s.push({val,min});
     }
     //TC= O(1)
     void pop(){
-        v.pop_back();
+        s.pop();
     }
     //TC= O(1)
     int top(){
-        return v[v.size()-1].first;
+        return s.top().first;
     }
     //TC= O(1)
     int getMin() {
-        return v[v.size()-1].second;
+        return s.top().second;
     }
 };
 

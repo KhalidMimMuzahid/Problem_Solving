@@ -9,6 +9,7 @@ int val;
 int min;
 Node* down;
 };
+// SC = O(2n); for each item, we are saving two value, 1.val 2.min
 class MinStack {
     Node* head;
 public:
