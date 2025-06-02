@@ -99,6 +99,7 @@ A quick overview of solved problems across platforms. Click the link to view the
 
 | No. |    Date    | Problem Name         | Level  |  Platform & keywords  |                              Problem                        |                               Solution                               |
 |-----|------------|----------------------|--------|------------|-------------------------------------------------------------|----------------------------------------------------------------------|
+| 61   | 2025-06-02 | Next Greater Element II | Medium | LeetCode: #stack #monotonic_stack #array  | [View](https://leetcode.com/problems/next-greater-element-ii)     | [View](/leetcode/2025/June/02_%20Next%20Greater%20Element%20II/solution/solution__n__.cpp)  |
 | 60   | 2025-06-01 | Largest Rectangle in Histogram | Hard | LeetCode: #stack #monotonic_stack #array  | [View](https://leetcode.com/problems/largest-rectangle-in-histogram)     | [View](/leetcode/2025/June/01_%20Largest%20Rectangle%20in%20Histogram/solution/solution__n__.cpp)  |
 | 59   | 2025-05-26 | Min Stack | Medium | LeetCode: #stack #min_stack #array #class   | [View](https://leetcode.com/problems/min-stack)     | [View](/leetcode/2025/May/26_%20Min%20Stack/solution/)  |
 | 58   | 2025-05-26 | Next Greater Element I | Easy | LeetCode: #stack #array #hash_table #monotonic_stack   | [View](https://leetcode.com/problems/next-greater-element-i)     | [View](/leetcode/2025/May/26_%20Next%20Greater%20Element%20I/solution/solution.cpp)  |
