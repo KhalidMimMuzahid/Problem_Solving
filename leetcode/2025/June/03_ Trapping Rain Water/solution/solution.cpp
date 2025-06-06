@@ -4,6 +4,7 @@
 using namespace std;
 
 // TC= O(n)
+// SC= O(n)
 int trap(vector<int>& height) {
     int n= height.size();
     int ans=0;
